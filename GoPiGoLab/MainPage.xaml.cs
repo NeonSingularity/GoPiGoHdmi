@@ -70,9 +70,9 @@ namespace GoPiGoLab
         private void Timer_Tick()
         {
             timer = new DispatcherTimer();
-            timer.Start();
+            // timer.Start();
             timer.Interval = TimeSpan.FromSeconds(3);
-            timer.Stop();
+            // timer.Stop();
             Randoms();
         }
 
