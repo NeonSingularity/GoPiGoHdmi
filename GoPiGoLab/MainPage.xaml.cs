@@ -67,7 +67,7 @@ namespace GoPiGoLab
             SendCommand(GoPiGoCommand.Left);
         }
 
-        private void Timer_Tick()
+        private void Timer_Tick()       // We need to fix this.
         {
             timer = new DispatcherTimer();
             // timer.Start();
